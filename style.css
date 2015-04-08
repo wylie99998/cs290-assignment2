@@ -1,0 +1,21 @@
+table { border: solid thick; border-color: black;}
+colgroup, tbody {border: solid medium;}
+td {border:  solid thin; height: 1.5em; width: 1.5em;}
+th {border:  solid thin; height: 1.5em; width: 1.5em;}
+
+tr {border: solid thick; height: 1.5em; width: 1.5em;}
+
+
+.i {
+	font-style: italic; 
+	font-weight: normal;
+}
+
+.even {background-color: #98fb98;}
+.odd {background-color: #add8e6;}
+
+.first {color: red;}
+.third {color: blue;}
+
+.one {width: 3em;}
+.four {width: 6em;}
