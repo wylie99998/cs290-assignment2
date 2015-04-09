@@ -33,7 +33,9 @@ tfoot td:nth-child(2){
 
 form{border: solid thin;}
 
-div{text-align: left; vertical-align: left;}
+.outer_content{margin-top: 20px; text-align: left; vertical-align: left; padding-top: 20px; padding-bottom: 20px; background-color: pink; width: 75%;}
+
+.inner_content{margin-left: 12.5%; text-align: center; vertical-align: center; background-color: blue; float:center;  width: 75%;  color: white;}
 
 
-
+img{float: left;}
