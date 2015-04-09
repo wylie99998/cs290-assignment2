@@ -17,10 +17,11 @@ th:nth-child(1) {
 	font-weight: normal;
 }
 tr:nth-child(2n +2){
-	background-color: #98fb98;
+	background-color: #add8e6;
 }
 tr:nth-child(2n +3){
-	background-color: #add8e6;
+	
+	background-color: #98fb98;
 }
 
 tfoot td:nth-child(2){
@@ -30,8 +31,9 @@ tfoot td:nth-child(2){
 	background-color:purple;
 }
 
+form{border: solid thin;}
 
-
+div{text-align: left; vertical-align: left;}
 
 
 
