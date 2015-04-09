@@ -4,18 +4,34 @@ td {border:  solid thin; height: 1.5em; width: 1.5em;}
 th {border:  solid thin; height: 1.5em; width: 1.5em;}
 
 tr {border: solid thick; height: 1.5em; width: 1.5em;}
+tfoot {border: solid thin; color: black; width: 3em;}
+td:nth-child(2){
+	color: red;
+}
+td:nth-child(4){
+	color: blue;
+}
 
-
-.i {
+th:nth-child(1) {
 	font-style: italic; 
 	font-weight: normal;
 }
+tr:nth-child(2n +2){
+	background-color: #98fb98;
+}
+tr:nth-child(2n +3){
+	background-color: #add8e6;
+}
 
-.even {background-color: #98fb98;}
-.odd {background-color: #add8e6;}
+tfoot td:nth-child(2){
+	color:black;
+}
+ dt:hover + dd{
+	background-color:purple;
+}
 
-.first {color: red;}
-.third {color: blue;}
 
-.one {width: 3em;}
-.four {width: 6em;}
+
+
+
+
